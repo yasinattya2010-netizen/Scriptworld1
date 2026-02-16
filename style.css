@@ -1,0 +1,77 @@
+body{
+  margin:0;
+  font-family:'Arial',sans-serif;
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+header{
+  position:relative;
+  padding:20px;
+}
+.owner-btn{
+  position:absolute;
+  right:20px;
+  top:20px;
+  padding:6px 12px;
+  background:linear-gradient(90deg,#00f0ff,#8a2be2);
+  color:white;
+  border:none;
+  border-radius:20px;
+  cursor:pointer;
+}
+.visitor-box{
+  position:absolute;
+  left:20px;
+  top:20px;
+  background:rgba(255,255,255,0.1);
+  padding:6px 12px;
+  border-radius:20px;
+}
+.container{
+  max-width:900px;
+  margin:auto;
+}
+.card{
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:25px;
+}
+.status{
+  padding:5px 12px;
+  border-radius:15px;
+  font-size:12px;
+}
+.working{ background:#00c853; }
+.patched{ background:#d50000; }
+pre{
+  background:black;
+  padding:12px;
+  border-radius:10px;
+  overflow-x:auto;
+}
+.owner-panel{
+  display:none;
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  border-radius:15px;
+  margin-bottom:30px;
+}
+input, textarea, select{
+  width:100%;
+  margin:8px 0;
+  padding:8px;
+  border-radius:8px;
+  border:none;
+}
+button{
+  margin-top:8px;
+  padding:8px 14px;
+  border:none;
+  border-radius:8px;
+  background:linear-gradient(90deg,#00f0ff,#8a2be2);
+  color:white;
+  cursor:pointer;
+}

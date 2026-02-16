@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Worldscript1</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>World Core</h1>
+<div class="visitor-box">
+Visitors: <span id="visitorCount">0</span>
+</div>
+<button class="owner-btn" onclick="loginOwner()">OWNER</button>
+</header>
+
+<div class="container">
+
+<div class="owner-panel" id="ownerPanel">
+<h3>Owner Control Panel</h3>
+<input type="text" id="newTitle" placeholder="Script Title">
+<textarea id="newScript" placeholder="Write script here"></textarea>
+<select id="newStatus">
+<option value="working">Working</option>
+<option value="patched">Patched</option>
+</select>
+<button onclick="addScript()">Add Script</button>
+</div>
+
+<div id="scriptsContainer"></div>
+
+</div>
+
+<script type="module" src="firebaseConfig.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
